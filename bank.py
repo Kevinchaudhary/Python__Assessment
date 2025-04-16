@@ -74,7 +74,7 @@ def view_customer():
 def view_all_customers():
     customers = data_customer()
     if not customers:
-        print("📭 No customers found.")
+        print("No customers found.")
         return
     print("\nAll Customers:")
     for acc_no, data in customers.items():
