@@ -95,15 +95,3 @@ def view_balance():
     else:
         print("No customer found.")
 
-# def view_balance():
-#     customers = data_customer()  # Assuming this function fetches the customers
-#     acc_no = input("Enter your Account Number: ").strip()
-
-#     if acc_no in customers:
-#         c = customers[acc_no]
-#         print("\nCustomer Details")
-#         print(f"Account Number: {acc_no}")
-#         print(f"Balance: ₹{c['balance']:.2f}")  # Formatting the balance to 2 decimal places for currency
-#     else:
-#         print("❌ No customer found with the given account number.")
-
